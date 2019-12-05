@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("C:/wamp64/www/Tela de login/CSS/Imagens/farmacia-fundo-social-americana-entra-recesso-inicio-janeiro.jpg");
+    background-position: 50% 90%;
+    color: black;
+    font-family:arial;
+}
+input{
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius:30px ;
+    border:1.2px solid black;
+    font-size:16pt;
+    padding: 10px 20px;
+    background-color:rgba(255,255,255,0,0.01);
+    color: black;
+    
+}
+
+div#corpo-form{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;   
+}
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+div#msg.sucesso{
+    width: 40px;
+    margin:10px auto;
+    padding: 10px;
+    background-color:rgba(255,128,114,.3) ;
+    border: 1px solid rgb(165,42,42);
+
+}
+div.msg-erro{
+    width: 40px;
+    margin:10px auto;
+    padding: 10px;
+    background-color:rgba(255,128,114,.3) ;
+    border: 1px solid rgb(165,42,42);
+
+}
